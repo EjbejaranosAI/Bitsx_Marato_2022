@@ -1,4 +1,4 @@
-import streamlit2 as st
+import streamlit as st
 import cv2
 import tensorflow as tf
 from load_model_new import load_model_raton
