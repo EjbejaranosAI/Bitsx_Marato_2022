@@ -1,8 +1,13 @@
-opencv-python
-tensorflow
-pandas
-matplotlib
-scikit-learn
-scipy
-seaborn
-numpy
+###### Requirements ######
+streamlit==0.76.0
+requests
+opencv-python==1.19.5
+numpy==1.19.2
+matplotlib==3.3.2
+pandas==1.1.3
+scikit-learn==0.23.2
+tensorflow==2.4.1
+scipy==1.5.2
+seaborn==0.11.0
+keras==2.4.3
+
