@@ -4,6 +4,7 @@ import tensorflow as tf
 from load_model_new import load_model_raton
 
 # Load the model
+st.title("App Medical prediction for cardiacal sicks!")
 model = tf.keras.models.load_model_raton()
 
 model.summary
