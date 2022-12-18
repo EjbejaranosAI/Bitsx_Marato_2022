@@ -1,8 +1,8 @@
-import streamlit as st
-import cv2
+import streamlit_2 as st
+
 import tensorflow as tf
 from load_model_new import load_model_raton
-
+import cv2
 # Load the model
 st.title("App Medical prediction for cardiacal sicks!")
 model = tf.keras.models.load_model_raton()
